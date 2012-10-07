@@ -1857,6 +1857,11 @@ public final class Settings {
         public static final String ACCELEROMETER_ROTATION = "accelerometer_rotation";
 
         /**
+         * @hide
+         */
+        public static final String ACCELEROMETER_LOCKSCREEN_ROTATION = "accelerometer_lockscreen_rotation";
+
+        /**
          * Control the type of rotation which can be performed using the accelerometer
          * if ACCELEROMETER_ROTATION is enabled.
          * Value is a bitwise combination of
