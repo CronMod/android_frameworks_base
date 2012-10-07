@@ -2034,6 +2034,12 @@ public final class Settings {
         public static final String NOTIFICATION_LIGHT_PULSE_CUSTOM_VALUES = "notification_light_pulse_custom_values";
 
         /**
+         * Control whether the navigation bar should be displayed or not
+         * @hide
+        */
+        public static final String HAS_NAVIGATION_BAR = "has_navigation_bar";
+
+        /**
          * Whether the battery light should be enabled (if hardware supports it)
          * The value is boolean (1 or 0).
          * @hide
