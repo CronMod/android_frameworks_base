@@ -1310,4 +1310,5 @@
     <string name="weather_no_data">Sin datos</string>
     <string name="weather_tap_to_refresh">Toca para refrescar</string>
     <string name="weather_refreshing">Actualizando</string>
+    <string name="weather_last_sync_just_now">Ahora</string>
 </resources>
