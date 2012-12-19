@@ -681,7 +681,7 @@ sp<MediaSource> OMXCodec::Create(
             return softwareCodec;
         }
 
-        LOGI("Attempting to allocate OMX node '%s'", componentName);
+        LOGV("Attempting to allocate OMX node '%s'", componentName);
 
         uint32_t quirks = getComponentQuirks(componentNameBase, createEncoder);
 #ifdef QCOM_HARDWARE
